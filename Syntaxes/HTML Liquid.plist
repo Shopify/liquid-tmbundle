@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>liquid</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>(?x)
+		(&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)\b.*?&gt;
+		|&lt;!--(?!.*--&gt;)
+		|\{\s*($|\?&gt;\s*$|//|/\*(.*\*/\s*$|(?!.*?\*/)))
+		)</string>
+	<key>foldingStopMarker</key>
+	<string>(?x)
+		(&lt;/(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)&gt;
+		|^\s*--&gt;
+		|(^|\s)\}
+		)</string>
+	<key>name</key>
+	<string>HTML Liquid</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>{%+(?!&gt;)=?</string>
+			<key>end</key>
+			<string>%}</string>
+			<key>name</key>
+			<string>source.liquid.tags.embedded.html</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.ruby.rails</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>{{</string>
+			<key>end</key>
+			<string>}}</string>
+			<key>name</key>
+			<string>source.liquid.output.embedded.html</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.ruby.rails</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>text.html.basic</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.html.liquid</string>
+	<key>uuid</key>
+	<string>675E0890-CA4B-404D-8000-15BE6FAE9998</string>
+</dict>
+</plist>

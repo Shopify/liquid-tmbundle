@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% case  ${1:variable} %}
+
+   {% when '${2:matching?}' %}
+	${3}
+
+{% endcase %}</string>
+	<key>name</key>
+	<string>case</string>
+	<key>scope</key>
+	<string>text.html.liquid</string>
+	<key>tabTrigger</key>
+	<string>lca</string>
+	<key>uuid</key>
+	<string>BB5DB369-CE19-4420-896E-2D782306F067</string>
+</dict>
+</plist>

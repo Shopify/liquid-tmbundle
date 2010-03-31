@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% when '${1:matching?}' %}
+	${2:what to do} 
+</string>
+	<key>name</key>
+	<string>when</string>
+	<key>scope</key>
+	<string>text.html.liquid</string>
+	<key>tabTrigger</key>
+	<string>lcw</string>
+	<key>uuid</key>
+	<string>AE5AE663-A677-4447-A24B-C33855531D9F</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Liquid</string>
+	<key>ordering</key>
+	<array>
+		<string>753F4BAC-089C-4883-B59B-282183760C1A</string>
+		<string>205B3C48-F487-4499-AEE6-5E9E430B86CD</string>
+		<string>A75C87EA-758C-4371-B115-6DC1E6310BD8</string>
+		<string>EA8CD949-5997-4968-953F-5EE307EA06B9</string>
+		<string>392C7256-FFFF-4F81-B6FE-324D76BBD000</string>
+		<string>BB5DB369-CE19-4420-896E-2D782306F067</string>
+		<string>AE5AE663-A677-4447-A24B-C33855531D9F</string>
+		<string>1CDBA235-2158-49CB-BE6C-253BB610D04D</string>
+		<string>675E0890-CA4B-404D-8000-15BE6FAE9998</string>
+	</array>
+	<key>uuid</key>
+	<string>6D8CA567-CAB2-41D7-A555-8106D14111E1</string>
+</dict>
+</plist>
