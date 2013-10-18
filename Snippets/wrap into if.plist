@@ -4,9 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>{% if  ${2:condition} %}
- $TM_SELECTED_TEXT
+  $TM_SELECTED_TEXT
 {% else %}
- ${3:what to do else}
+  ${3:what to do else}
 {% endif %}
 </string>
 	<key>keyEquivalent</key>
